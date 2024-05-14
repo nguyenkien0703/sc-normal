@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",// bien dịch ts thành js , 1 module phổ biến, cho phép bạn sử dụn require và module.export để nhập và xuất module trog mã của bạn 
+      "strict": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true
+    },
+    "include": [
+      "./scripts",
+      "./test"
+    ]
+  }
